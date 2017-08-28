@@ -28,10 +28,8 @@ public class CardTest {
 }
 
 class Card {
-	// instance variable
 	String kind;
 	int number;
-	// class variable
 	static int width = 100;
 	static int height = 250;
 };
