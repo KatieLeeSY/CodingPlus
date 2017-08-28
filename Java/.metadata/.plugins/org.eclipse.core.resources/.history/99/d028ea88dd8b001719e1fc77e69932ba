@@ -1,0 +1,19 @@
+package Chapter06;
+
+public class CallStackTest2 {
+
+	public static void main(String[] args) {
+		System.out.println("main(String[] args)이 시작되었음.");
+		firstMethod();
+		System.out.println("main(String[] args)이 끝났음.");
+	}
+}
+
+class Card {
+	// instance variable
+	String kind;
+	int number;
+	// class variable
+	static int width = 100;
+	static int height = 250;
+};
