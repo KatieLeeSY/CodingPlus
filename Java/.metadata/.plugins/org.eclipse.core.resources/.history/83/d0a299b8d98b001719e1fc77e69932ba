@@ -1,0 +1,26 @@
+package Chapter06;
+
+public class MyMathTest {
+
+	public static void main(String[] args) {
+		MyMath mm = new MyMath();
+
+	}
+
+}
+
+class MyMath {
+	long add(long a, long b) {
+		long result = a + b;
+		return result;
+	}
+	long subtract(long a, long b) {
+		return a - b;
+	}
+	long multiply(long a, long b) {
+		return a * b;
+	}
+	double divide(double a, double b) {
+		return a / b;
+	}
+}
