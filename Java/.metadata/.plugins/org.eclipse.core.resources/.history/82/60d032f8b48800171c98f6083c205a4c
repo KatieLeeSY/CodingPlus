@@ -1,0 +1,27 @@
+package Chapter05;
+
+public class MultiArrayEx03 {
+
+	public static void main(String[] args) {
+		int[][] m1 = {
+				{1, 2, 3},
+				{4, 5, 6}
+		};
+
+		int[][] m2 = {
+				{1, 2},
+				{3, 4},
+				{5, 6}
+		};
+		
+		final int ROW = m1.length;		// m1의 행 길이
+		final int COL = m2[0].length;	// m2의 열 길이
+		final int M2_Row = m2.length;	// m2의 행 길이
+		
+		int[][] m3 = new int[ROW][COL];
+		
+		
+		
+	}
+
+}

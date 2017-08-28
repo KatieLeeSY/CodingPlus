@@ -1,0 +1,15 @@
+package Chapter06;
+
+class Tv {
+	// Tv의 속성(멤버변수)
+	String color;
+}
+
+public class TvTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

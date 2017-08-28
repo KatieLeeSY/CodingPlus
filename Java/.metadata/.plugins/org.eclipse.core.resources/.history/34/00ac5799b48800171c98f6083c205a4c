@@ -1,0 +1,12 @@
+package Chapter05;
+
+public class MultiArrayEx03 {
+
+	public static void main(String[] args) {
+		int[][] m1 = {
+				
+		};
+
+	}
+
+}

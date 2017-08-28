@@ -1,0 +1,14 @@
+package Chapter06;
+
+class Tv {
+	String color;
+}
+
+public class TvTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
