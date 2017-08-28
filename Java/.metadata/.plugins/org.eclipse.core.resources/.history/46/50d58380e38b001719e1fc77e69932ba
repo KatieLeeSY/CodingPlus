@@ -8,7 +8,7 @@ public class ReferenceParamEx {
 		System.out.println("main() : x = " + d.x);
 		
 		change(d);
-		System.out.println("After change(d)");
+		System.out.println("After change(d.x)");
 		System.out.println("main() : x = " + d.x);	
 	}
 	

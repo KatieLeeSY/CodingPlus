@@ -18,7 +18,6 @@ INDEX VERSION 1.130+C:\Users\XNOTE\KatieLeeSY\CodingPlus_Academy\Java\.metadata\
 543409727.index
 1056031855.index
 412496726.index
-3122613317.index
 4005617011.index
 2816613229.index
 134360950.index
