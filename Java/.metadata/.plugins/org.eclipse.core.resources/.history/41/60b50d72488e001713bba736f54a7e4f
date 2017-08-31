@@ -15,7 +15,6 @@ public class FactorialTest {
 			result = 1;
 		else
 			result = n * factorial(n - 1); // 다시 메서드 자신을 호출한다.
-		// 재귀함수 : 클론이 생긴다 (메모리 많이 잡아먹음. 디버깅 어렵다.)
 
 		return result;
 	}
