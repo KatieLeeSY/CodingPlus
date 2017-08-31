@@ -1,0 +1,12 @@
+package Chapter06;
+
+public class ReturnTest {
+
+	public static void main(String[] args) {
+		ReturnTest r = new ReturnTest();
+		
+		int result = r.add(3,5);
+
+	}
+
+}
