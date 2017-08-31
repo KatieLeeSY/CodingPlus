@@ -1,0 +1,14 @@
+package Chapter06;
+
+class Data {
+	int x;
+}
+
+public class ReferenceReturnEx {
+
+	public static void main(String[] args) {
+		Data d = new Data();
+
+	}
+
+}

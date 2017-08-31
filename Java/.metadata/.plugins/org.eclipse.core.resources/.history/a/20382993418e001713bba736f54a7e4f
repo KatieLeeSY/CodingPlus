@@ -16,10 +16,7 @@ public class ReferenceReturnEx {
 	}
 	
 	static Data copy(Data d) {
-		Data tmp = new Data();
-		tmp.x = d.x;
-
-		return tmp;
+		
 	}
 
 }
