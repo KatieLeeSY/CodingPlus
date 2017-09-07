@@ -1214,3 +1214,45 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2017-09-07 19:06:37.858
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 233.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:193)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:204)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:227)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:652)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:682)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1944)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.filterUnloadedTypes(JavaHotCodeReplaceManager.java:351)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:462)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:445)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:316)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:439)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2017-09-07 19:06:40.885
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 234.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:193)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:204)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:192)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:227)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:652)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:682)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1944)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.filterUnloadedTypes(JavaHotCodeReplaceManager.java:351)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:462)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.access$0(JavaHotCodeReplaceManager.java:445)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager$1.run(JavaHotCodeReplaceManager.java:316)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1087)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:439)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
