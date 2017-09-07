@@ -1,0 +1,7 @@
+package Chapter06;
+
+class MemberCall {
+	int iv = 10;
+	static int cv = 20;
+	
+}
