@@ -4,7 +4,7 @@ class MyMath2 {
 	long a, b;
 
 	// 인스턴스변수 a, b만을 이용해서 작업하므로 매개변수가 필요없다.
-	// 인스턴스 메소드 -> 객체를 생성해야 사용가능
+
 	long add() {
 		return a + b;
 	}
@@ -22,7 +22,6 @@ class MyMath2 {
 	}
 
 	// 인스턴스변수와 관계없이 매개변수만으로 작업이 가능하다.
-	// 클래스 메소드
 	static long add(long a, long b) { // a, b는 지역변수
 		return a + b;
 	}
