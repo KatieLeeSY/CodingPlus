@@ -1,0 +1,13 @@
+package Chapter06;
+
+public class FactorialTest2 {
+	static long factorial(int n) {
+		if(n<=0 || n>20) return -1;		// 매개변수와 유효성 검사
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
