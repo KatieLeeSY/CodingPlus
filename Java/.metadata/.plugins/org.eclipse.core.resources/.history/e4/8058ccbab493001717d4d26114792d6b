@@ -24,6 +24,6 @@ public class FactorialTest2 {
 			System.out.printf("%2d!=%20d%n", i, result);
 		}
 
-	}	// main¿« ≥°
+	}
 
 }
