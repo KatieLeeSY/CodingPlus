@@ -1,0 +1,32 @@
+package Chapter06;
+
+public class OverloadingTest {
+
+	public static void main(String[] args) {
+		MyMath3 mm = new MyMath3();
+
+	}
+
+}
+
+class MyMath3 {
+	int add(int a, int b) {
+		System.out.print("int add(int a, int b) - ");
+		return a + b;
+	}
+
+	long add(int a, long b) {
+		System.out.print("long add(int a, long b) - ");
+		return a + b;
+	}
+
+	long add(long a, int b) {
+		System.out.print("long add(long a, int b - ");
+		return a + b;
+	}
+
+	long add(long a, long b) {
+		System.out.print("long add(long a, long b) - ");
+		return a + b;
+	}
+}
